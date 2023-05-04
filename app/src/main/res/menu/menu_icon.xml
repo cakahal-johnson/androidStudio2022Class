@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:title="Home"
+    android:id="@+id/home"
+    android:icon="@drawable/ic_home"
+    />
+
+    <item
+        android:title="group"
+        android:id="@+id/group"
+        android:icon="@drawable/ic_group"
+        />
+
+    <item
+        android:title="share"
+        android:id="@+id/share"
+        android:icon="@drawable/ic_share"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:title="Sub Menu"
+        >
+        <menu>
+            <item
+                android:title="group"
+                android:icon="@drawable/ic_group"
+                />
+
+            <item
+                android:title="share"
+                android:icon="@drawable/ic_share"
+                />
+        </menu>
+
+
+    </item>
+
+
+</menu>

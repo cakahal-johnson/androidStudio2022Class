@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myfirstapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyFirstApp">
+        <activity
+            android:name=".FireBaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SqliteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ButtonNav"
+            android:exported="false" />
+        <activity
+            android:name=".IntenClass"
+            android:exported="false" />
+        <activity
+            android:name=".DrawerClass"
+            android:exported="false" />
+        <activity
+            android:name=".RequestClass"
+            android:exported="false" />
+        <activity
+            android:name=".WebViewClass"
+            android:exported="false" />
+        <activity
+            android:name=".SharePreferenceClass"
+            android:exported="false" />
+        <activity
+            android:name=".ListviewClass3"
+            android:exported="false" />
+        <activity
+            android:name=".ListViewClass2"
+            android:exported="false" />
+        <activity
+            android:name=".BlogApp"
+            android:exported="false" />
+        <activity
+            android:name=".ListviewClass"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".FormPractical"
+            android:exported="false" />
+        <activity
+            android:name=".FormActivity"
+            android:exported="false" />
+        <activity
+            android:name=".design3"
+            android:exported="false" />
+        <activity
+            android:name=".Design2"
+            android:exported="false" />
+        <activity
+            android:name=".FoodApp"
+            android:exported="false" />
+        <activity
+            android:name=".Introduction"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

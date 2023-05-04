@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".design3"
+    android:orientation="vertical"
+    android:background="#ffe188">
+
+
+
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="50dp"
+        android:id="@+id/bottomCard"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_marginTop="290dp"
+        app:cardElevation="9dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias=".7">
+
+<!--        HERE IS FOR THE FIRST BUTTON - 1 + -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+
+            >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ffff0000"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFFFF"
+                android:text="-  1  +"
+                android:textStyle="bold"
+                android:layout_marginTop="110dp"
+                android:layout_marginStart="0dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Beef Burger"
+                android:textColor="#FF000000"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="from paya Republic"
+                android:textColor="#FF000000"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6.59"
+                android:textColor="#FF000000"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="-38dp"
+                />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/star"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="33dp"
+                android:contentDescription="star"
+                tools:ignore="ImageContrastCheck"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.8"
+                android:textColor="#FF000000"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="-20dp"
+                />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/fire"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="-24dp"
+                android:contentDescription="fire"
+                tools:ignore="ImageContrastCheck"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="190 Kcal"
+                android:textColor="#FF000000"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="-23dp"
+                />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/clock"
+                android:layout_marginStart="260dp"
+                android:layout_marginTop="-24dp"
+                android:contentDescription="clock"
+                tools:ignore="ImageContrastCheck"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5-10Min"
+                android:textColor="#FF000000"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginStart="290dp"
+                android:layout_marginTop="-23dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="from paya Republic the classic burger is an all time\nBBQ favourite!
+This super easy homemade beef burger recipe gives you delicious patties,packed with onions and herbs for extra flavour, that are perfect for topping with cheese, lettuce and tomato, and sandwiching between floury buns. See method>>>"
+                android:textColor="#FF000000"
+                android:textStyle="normal"
+                android:textSize="15sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                />
+
+            <Button
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#ffff0000"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFFFF"
+                android:text="Add to Cart"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="0dp"
+                android:id="@+id/addCart"
+                />
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        app:cardElevation="100dp"
+        app:cardCornerRadius="15dp"
+        android:backgroundTint="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/bottomCard"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/bottomCard">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="230dp"
+            android:layout_height="150dp"
+            android:background="@drawable/burger"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="burger"
+            tools:ignore="ImageContrastCheck"/>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

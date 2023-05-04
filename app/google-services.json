@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1019531712554",
+    "project_id": "cakahal-1cfbd",
+    "storage_bucket": "cakahal-1cfbd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019531712554:android:19a2d3bdd38c65f6090b53",
+        "android_client_info": {
+          "package_name": "com.example.myfirstapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019531712554-3i6tgejj5au2eu5dp44cipb3gndt3lhr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDapg_KQLHrJYTpyRAaE2wBbCI3pZ75lHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019531712554-3i6tgejj5au2eu5dp44cipb3gndt3lhr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

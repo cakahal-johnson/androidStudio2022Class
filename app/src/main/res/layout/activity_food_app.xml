@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodApp"
+    android:orientation="vertical"
+    android:background="#ffe188">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:background="#ffe188"
+            android:contentDescription="man"
+            android:gravity="center"
+            tools:ignore="ImageContrastCheck"
+            android:src="@drawable/man"
+            />
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:padding="30dp"
+        app:cardCornerRadius="50dp"
+        android:layout_marginTop="-220dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="60dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="We are Bat Food supply agency"
+                android:textColor="#ffff0000"
+                android:textStyle="bold"
+                android:textSize="40sp"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="We are Bat Food supply agency that gives you sense to code without debugs... "
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:backgroundTint="#ffff0000"
+                android:textColor="#FFFFFFFF"
+                android:text="Get Started"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:id="@+id/GetStarted"/>
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:paddingTop="30dp"
+
+    android:paddingRight="30dp"
+    android:paddingLeft="30dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Introduction to layouts"
+                android:id="@+id/Introduction"/>
+
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="food App"
+                android:id="@+id/blog"/>
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Login"
+                android:id="@+id/FormApp"/>
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Register"
+                android:id="@+id/FormApp2"/>
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Design3"
+                android:id="@+id/D3"/>
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="List View1"
+                android:id="@+id/viewuser"/>
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="List View2"
+                android:id="@+id/viewuser2"/>
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="WebView"
+                android:id="@+id/Webview"/>
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Request API"
+                android:id="@+id/requestApi"/>
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Inten Class"
+                android:id="@+id/inten"/>
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Drawer Class"
+                android:id="@+id/drawer"/>
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Bottom Nav"
+                android:id="@+id/bottom_nav"/>
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Sqlite"
+                android:id="@+id/sqlite"/>
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Fire Base"
+                android:id="@+id/firebase"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
